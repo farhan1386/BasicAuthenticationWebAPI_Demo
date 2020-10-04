@@ -1,5 +1,15 @@
 # Basic Authentication ASP.NET Web API
 
+### What are Authentication?
+
+Authentication is a process that ensures and confirms a user’s identity.
+
+### What is Authorization?
+
+Authorization is a security mechanism which is used to determine whether the user has access to a particular resource or not. The most point that you need to remember is, authentication happens first, then only authorization.
+
+
+
 ### Why we need Authentication in Web API?
 Let’s start the discussion with one of the Rest Constraint i.e. Stateless Constraint. The Stateless Constraint is one of the Rest Constraints which states that the communication between the client and server must be stateless between the requests. This means that we should not be storing the client information on the server which required to process the request. The request that is coming from the client should contain all the necessary information that is required by the server to process that request. This ensures that each request coming from the client can be treated independently by the server.
 
